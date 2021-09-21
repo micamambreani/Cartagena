@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Cartagena</title>
+    <link rel="stylesheet" href="../SASS/css/style.css">
+    <link rel="stylesheet" href="../SASS/scss/style.scss">
+    <meta name="description" content="Contacto directo con el equipo Cartagena">
+    <meta name="keywords" content="Emprendimiento, batamantas, lencería, lomas de zamora, lonas">
+</head>
+<img src="../Assets/Multimedia/logo.png" alt="logo" id="encabezado">
+
+
+<body>
+    <header>
+        <ul>
+            <li> <a href="../index.html"> Inicio </a> </li>
+            <li> <a href="./productos.html"> Productos </a> </li>
+            <li> <a href="./quienessomos.html"> ¿Quiénes somos? </a> </li>
+            <li> <a href="./contacto.html"> Contacto </a> </li>
+        </ul>
+    </header>
+    <h1 id="titulo">
+        <H1>Contacto</H1>
+    </h1>
+    <section id="formulario">
+        <form>
+            <div id="formulario__input">
+                <label for="nombreapellido" class="form-label">Nombre y apellido</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Completar">
+            </div>
+            <div id="formulario__input">
+                <label for="mail" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Completar">
+            </div>
+            <div id="formulario__input">
+                <h5>Cómo nos conociste</h5>
+                <select id="completar" aria-label="Elige la opción">
+                    <option selected>...</option>
+                    <option value="1">Redes sociales</option>
+                    <option value="2">Por un conocido</option>
+                    <option value="3">Me regalaron algo</option>
+                </select>
+            </div>
+            <div id="formulario__input">
+                <h5>Quieres recibir en tu mail las últimas noticias de Cartagena?</h5>
+                <input class="form-check-input" type="radio" name="Si" id="flexRadioDefault1">
+                <label class="form-check-label" for="Si">
+                    Si
+                </label>
+            </div>
+            <div id="formulario__input">
+                <input class="form-check-input" type="radio" name="No" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="No">
+                    No
+                </label>
+            </div>
+            <div id="formulario__input">
+                <button type="button" class="btn btn-outline-secondary">Enviar formulario</button>
+                <button type="button" class="btn btn-outline-secondary">Limpiar formulario</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <img src="../Assets/Multimedia/logo.png" alt="footer" id="piedp">
+    </footer>
+</body>
+
+</html>
